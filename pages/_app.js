@@ -1,4 +1,5 @@
-import "@/styles/globals.css"
+import styles from "../styles/globals.css"
+
 import { MoralisProvider } from "react-moralis"
 
 export default function App({ Component, pageProps }) {

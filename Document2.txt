@@ -1,0 +1,6 @@
+  const { runContractFuction: getEntranceFee } = useWeb3Contract({
+        abi: abi,
+        contractAddress: raffleAddress,
+        functionName: "getEntranceFee",
+        param: {},
+    })
